@@ -1,0 +1,21 @@
+Part 1: Build a class that generates a random color
+Colors are randomized using fair coin method
+There are any color in the Red, Green, Blue (RGB)
+Include a method that returns the hex value for the color chosen
+Include a method that returns the decimal code (r,g,b) for the random color
+RGB values range from 0 to 255
+
+Part 2: Build a biased random color generator
+The random generator is bias
+For this exercise there are only four category of colors
+Red (40-255, 0,0)
+Green (0, 40-255, 0)
+Blue (0,0,40-255)
+Grayscale: the RGB values must all be identical ranging from 0-255
+The main categories are biased, but within those categories, which color you return in random by fair coin
+The bais is passed in as a parameters of the class and doesn’t alter for that instance (object)
+Include a method that returns the hex value for the color chosen
+Include a method that returns the decimal code (r,g,b) for the random color
+
+Note, in regards to the bias, we are referring a percentage of being chosen for each color. how often we want those specific colors to be generated. example:
+(red=30, green=10, blue=50, grayscale=10) means that red will have a bias of 30% chance being chosen, blue 10%, green 50%, so on and so forth.
